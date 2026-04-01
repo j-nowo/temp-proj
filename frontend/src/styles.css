@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+:root {
+  --primary-color: #d5cfe1;
+  --secondary-color: #b6a6ca;
+  --accent-color: #a09abc;
+  --shadow-color: #d4bebe;
+}
+
+
+.description-truncate {
+  display: block !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  max-width: 100% !important;
+}
+
+.tasks-section {
+  max-width: 600px;
+  width: 100%;
+}
+
+a[mat-list-item] {
+  cursor: pointer;
+}
+
+a[mat-list-item]:hover {
+  background-color: var(--mat-sys-secondary-container) !important;
+}
